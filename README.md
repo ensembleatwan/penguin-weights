@@ -45,6 +45,7 @@ flowchart LR
     B --> C[Table of 3 rows]
     C --> D[Bar chart]
     C --> E[Some chart]
+    C --> F[Fun]
 ```
 
 ```python
