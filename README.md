@@ -34,9 +34,12 @@ $$
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 $$
 
+$$ \Large \sigma^2 + \frac{\theta + \phi}{n+k_i) $$
+
 ```mermaid
 flowchart LR
     A[Penguin data] --> B[SQL: average by species]
     B --> C[Table of 3 rows]
     C --> D[Bar chart]
+    C --> E[Some chart]
 ```
