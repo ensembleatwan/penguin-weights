@@ -46,3 +46,22 @@ flowchart LR
     C --> D[Bar chart]
     C --> E[Some chart]
 ```
+
+```python
+# this is a code snippet
+import pandas as pd
+import os
+
+print("hello world")
+```
+
+```sql
+SELECT * FROM TABLE
+```
+
+```R
+var <- "one"
+```
+
+
+
