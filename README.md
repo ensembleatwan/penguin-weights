@@ -27,3 +27,16 @@ The query is in [sql/weight_by_species.sql](sql/weight_by_species.sql). It reads
 - Two of the 344 penguins have no body mass, so 342 were averaged.
 - The Gentoo penguins were all measured on one island, Biscoe. The data cannot say whether Gentoo penguins elsewhere weigh the same.
 - The averages mix males and females, and males are heavier.
+
+# Math
+
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+
+```mermaid
+flowchart LR
+    A[Penguin data] --> B[SQL: average by species]
+    B --> C[Table of 3 rows]
+    C --> D[Bar chart]
+```
