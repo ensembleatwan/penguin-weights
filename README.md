@@ -34,7 +34,10 @@ $$
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 $$
 
-$$ \Large \sigma^2 + \frac{\theta + \phi}{n+k_i) $$
+$$
+ \Large \sigma^2 + \frac{\theta + \phi}{n+k_i} 
+$$
+
 
 ```mermaid
 flowchart LR
